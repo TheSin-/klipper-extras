@@ -4,8 +4,8 @@ Adds an options to rung a fan upto a certain temperature.  It basically reverses
 # Install
 ssh into your klipper system
 ```
-get clone https://github.com/TheSin-/klipper-extras.git thesin-klipper-extras
-ln -s thesin-klipper-extras/reverse_temperature_fan/reverse_temperature_fan.py ~/klipper/klippy/extras/
+git clone https://github.com/TheSin-/klipper-extras.git thesin-klipper-extras
+ln -s ~/thesin-klipper-extras/reverse_temperature_fan/reverse_temperature_fan.py ~/klipper/klippy/extras/
 sudo service klipper restart
 ```
 

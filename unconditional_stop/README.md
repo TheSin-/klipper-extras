@@ -6,8 +6,8 @@ This is the same as `PAUSE` but doesn't use the macros, incase you want base PAU
 # Install
 ssh into your klipper system
 ```
-get clone https://github.com/TheSin-/klipper-extras.git thesin-klipper-extras
-ln -s thesin-klipper-extras/unconditional_stop/unconditional_stop.py ~/klipper/klippy/extras/
+git clone https://github.com/TheSin-/klipper-extras.git thesin-klipper-extras
+ln -s ~/thesin-klipper-extras/unconditional_stop/unconditional_stop.py ~/klipper/klippy/extras/
 sudo service klipper restart
 ```
 
