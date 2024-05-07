@@ -12,7 +12,7 @@ sudo service klipper restart
 # Update manager
 Add this to moonraker.conf
 ```
-[update_manager klipper-toolchanger]
+[update_manager thesin-klipper-extras]
 type: git_repo
 path: ~/thesin-klipper-extras
 origin: https://github.com/TheSin-/klipper-extras.git
