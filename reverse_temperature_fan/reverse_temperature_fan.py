@@ -54,10 +54,10 @@ class ReverseControlBangBang(ControlBangBang):
               and temp <= target_temp-self.max_delta):
             self.circulate = True
         if (self.temperature_fan.heater_ready and self.circulate):
-            self.temperature_fan.set_speed(read_time,
+            self.temperature_fan.set_tf_speed(read_time,
                                            self.temperature_fan.get_max_speed())
         else:
-            self.temperature_fan.set_speed(read_time, 0.)
+            self.temperature_fan.set_tf_speed(read_time, 0.)
 
 def load_config_prefix(config):
     return ReverseTemperatureFan(config)
